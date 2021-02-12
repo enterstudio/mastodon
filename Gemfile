@@ -5,7 +5,7 @@ ruby '>= 2.3.0', '< 2.5.0'
 
 gem 'pkg-config'
 
-gem 'rails', '~> 5.0.2'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
@@ -45,7 +45,7 @@ gem 'rack-attack'
 gem 'rack-cors', require: 'rack/cors'
 gem 'rack-timeout'
 gem 'rails-i18n'
-gem 'rails-settings-cached'
+gem 'rails-settings-cached', '>= 0.6.5'
 gem 'redis', '~>3.2', require: ['redis', 'redis/connection/hiredis']
 gem 'rqrcode'
 gem 'ruby-oembed', require: 'oembed'
