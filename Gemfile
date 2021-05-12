@@ -9,7 +9,7 @@ gem 'rails', '~> 5.0.2'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
-gem 'puma'
+gem 'puma', '>= 4.3.8'
 
 gem 'hamlit-rails'
 gem 'pg'
