@@ -49,8 +49,8 @@ gem 'rails-settings-cached'
 gem 'redis', '~>3.2', require: ['redis', 'redis/connection/hiredis']
 gem 'rqrcode'
 gem 'ruby-oembed', require: 'oembed'
-gem 'sidekiq'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq', '>= 6.2.1'
+gem 'sidekiq-unique-jobs', '>= 5.0.0'
 gem 'simple-navigation'
 gem 'simple_form'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
@@ -76,7 +76,7 @@ group :test do
   gem 'faker'
   gem 'microformats2'
   gem 'rails-controller-testing'
-  gem 'rspec-sidekiq'
+  gem 'rspec-sidekiq', '>= 3.0.0'
   gem 'simplecov', require: false
   gem 'webmock'
 end
