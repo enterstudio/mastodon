@@ -20,7 +20,7 @@ gem 'best_in_place', '~> 3.0.1'
 
 gem 'paperclip', '~> 5.1'
 gem 'paperclip-av-transcoder'
-gem 'aws-sdk', '>= 2.0'
+gem 'aws-sdk', '>= 2.9.6'
 
 gem 'addressable'
 gem 'devise'
