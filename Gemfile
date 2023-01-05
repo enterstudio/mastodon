@@ -13,7 +13,7 @@ gem 'puma'
 
 gem 'hamlit-rails'
 gem 'pg'
-gem 'pghero'
+gem 'pghero', '>= 3.1.0'
 gem 'dotenv-rails'
 gem 'font-awesome-rails'
 gem 'best_in_place', '~> 3.0.1'
