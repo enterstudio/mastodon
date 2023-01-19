@@ -5,8 +5,8 @@ ruby '>= 2.3.0', '< 2.5.0'
 
 gem 'pkg-config'
 
-gem 'rails', '~> 5.0.2'
-gem 'sass-rails', '~> 5.0'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.1'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'puma'
@@ -14,16 +14,16 @@ gem 'puma'
 gem 'hamlit-rails'
 gem 'pg'
 gem 'pghero'
-gem 'dotenv-rails'
-gem 'font-awesome-rails'
-gem 'best_in_place', '~> 3.0.1'
+gem 'dotenv-rails', '>= 2.7.6'
+gem 'font-awesome-rails', '>= 4.7.0.6'
+gem 'best_in_place', '~> 3.0.3'
 
-gem 'paperclip', '~> 5.1'
+gem 'paperclip', '~> 5.1', '>= 5.1.0'
 gem 'paperclip-av-transcoder'
 gem 'aws-sdk', '>= 2.0'
 
 gem 'addressable'
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'devise-two-factor'
 gem 'doorkeeper'
 gem 'fast_blank'
@@ -44,7 +44,7 @@ gem 'rabl'
 gem 'rack-attack'
 gem 'rack-cors', require: 'rack/cors'
 gem 'rack-timeout'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 6.0.0'
 gem 'rails-settings-cached'
 gem 'redis', '~>3.2', require: ['redis', 'redis/connection/hiredis']
 gem 'rqrcode'
@@ -52,7 +52,7 @@ gem 'ruby-oembed', require: 'oembed'
 gem 'sidekiq'
 gem 'sidekiq-unique-jobs'
 gem 'simple-navigation'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'statsd-instrument'
 gem 'twitter-text'
@@ -60,7 +60,7 @@ gem 'tzinfo-data'
 gem 'whatlanguage'
 
 gem 'react-rails'
-gem 'browserify-rails'
+gem 'browserify-rails', '>= 4.3.0'
 gem 'autoprefixer-rails'
 
 group :development, :test do
@@ -68,14 +68,14 @@ group :development, :test do
   gem 'pry-rails'
   gem 'fuubar'
   gem 'fabrication'
-  gem 'i18n-tasks', '~> 0.9.6'
+  gem 'i18n-tasks', '~> 0.9.13'
 end
 
 group :test do
   gem 'capybara'
   gem 'faker'
   gem 'microformats2'
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 1.0.3'
   gem 'rspec-sidekiq'
   gem 'simplecov', require: false
   gem 'webmock'
@@ -100,5 +100,5 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'redis-rails'
-  gem 'lograge'
+  gem 'lograge', '>= 0.9.0'
 end
