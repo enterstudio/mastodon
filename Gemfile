@@ -49,7 +49,7 @@ gem 'rails-settings-cached'
 gem 'redis', '~>3.2', require: ['redis', 'redis/connection/hiredis']
 gem 'rqrcode'
 gem 'ruby-oembed', require: 'oembed'
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.8'
 gem 'sidekiq-unique-jobs'
 gem 'simple-navigation'
 gem 'simple_form'
