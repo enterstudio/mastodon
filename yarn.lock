@@ -99,6 +99,11 @@
     webpack-dev-middleware "^1.6.0"
     webpack-hot-middleware "^2.13.2"
 
+"@snyk/protect@^1.1207.0":
+  version "1.1207.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1207.0.tgz#1fa34a07987100b43faf94e04aaaaf528b14a437"
+  integrity sha512-ghRa5S8aH8z9I3WGbl4/ISqkNUOmiNLG1XWkN7SyCsd1UZmY0WZDiKMLU1ZQrPQQdrCPyC+jwpRkKwDdfFLVqw==
+
 JSONStream@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-0.10.0.tgz#74349d0d89522b71f30f0a03ff9bd20ca6f12ac0"
