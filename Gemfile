@@ -50,7 +50,7 @@ gem 'redis', '~>3.2', require: ['redis', 'redis/connection/hiredis']
 gem 'rqrcode'
 gem 'ruby-oembed', require: 'oembed'
 gem 'sidekiq'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq-unique-jobs', '>= 7.1.33'
 gem 'simple-navigation'
 gem 'simple_form'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
