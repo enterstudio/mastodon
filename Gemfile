@@ -24,7 +24,7 @@ gem 'aws-sdk', '>= 2.0'
 
 gem 'addressable'
 gem 'devise'
-gem 'devise-two-factor'
+gem 'devise-two-factor', '>= 6.0.0'
 gem 'doorkeeper'
 gem 'fast_blank'
 gem 'goldfinger'
