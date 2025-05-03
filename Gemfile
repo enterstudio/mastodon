@@ -64,7 +64,7 @@ gem 'browserify-rails'
 gem 'autoprefixer-rails'
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'pry-rails'
   gem 'fuubar'
   gem 'fabrication'
